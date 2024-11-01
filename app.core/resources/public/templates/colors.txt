@@ -16,5 +16,5 @@
 @string: {{string}};
 @var: {{variable}};
 @selection: {{selection}};
+@error: {{error}};
 @warning: {{warning}};
-@warning2: {{warning2}};

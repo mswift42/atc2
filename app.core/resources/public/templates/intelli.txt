@@ -88,13 +88,13 @@
     </option>
     <option name="BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="BASH.BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -135,7 +135,7 @@
     </option>
     <option name="BASH.NUMBER">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="BASH.PAREN">
@@ -161,7 +161,7 @@
     </option>
     <option name="BASH.SUBSHELL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="BASH.VAR_DEF">
@@ -171,17 +171,17 @@
     </option>
     <option name="BASH.VAR_USE">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="BASH.VAR_USE_BUILTIN">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="BASH.VAR_USE_COMPOSED">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
@@ -342,7 +342,7 @@
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.OBJECT_KEY">
@@ -426,7 +426,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -447,13 +447,13 @@
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
@@ -463,13 +463,13 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -512,7 +512,7 @@
     </option>
     <option name="CSS.IMPORTANT">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -561,7 +561,7 @@
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -598,7 +598,7 @@
     </option>
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES">
@@ -685,7 +685,7 @@
     </option>
     <option name="Cmd.NUMBER">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="CmdSTRING">
@@ -704,7 +704,7 @@
     <option name="DART_BADCHARACTER">
       <value>
         <option name="FOREGROUND" value="{{fg3}}" />
-        <option name="BACKGROUND" value="{{warning}}" />
+        <option name="BACKGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="DARTBUILTIN_TYPES">
@@ -804,7 +804,7 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -819,8 +819,8 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1024,7 +1024,7 @@
     </option>
     <option name="ECMAL4CONSTANT_TAG">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1086,7 +1086,7 @@
     </option>
     <option name="EL.BOUNDS">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="EL.IDENT">
@@ -1124,9 +1124,9 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="{{warning2}}" />
+        <option name="ERROR_STRIPE_COLOR" value="{{warning}}" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -1161,7 +1161,7 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1255,7 +1255,7 @@
     </option>
     <option name="HAML_CLASS">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1266,7 +1266,7 @@
     </option>
     <option name="HAML_FILTER">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="HAML_FILTER_CONTENT">
@@ -1277,7 +1277,7 @@
     </option>
     <option name="HAML_ID">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="HAML_LINE_CONTINUATION">
@@ -1396,13 +1396,13 @@
     </option>
     <option name="Integer literal">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="Invalid escape in string">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
-        <option name="EFFECT_COLOR" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
+        <option name="EFFECT_COLOR" value="{{error}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1454,8 +1454,8 @@
     </option>
     <option name="JAVA_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1571,7 +1571,7 @@
     </option>
     <option name="JS.BADCHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1604,7 +1604,7 @@
     </option>
     <option name="JSCONSTANT_TAG">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1631,8 +1631,8 @@
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1916,7 +1916,7 @@
     </option>
     <option name="LOGCAT_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="LOGCAT_INFO_OUTPUT">
@@ -1926,7 +1926,7 @@
     </option>
     <option name="LOGCAT_VERBOSE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="LOGCAT_WARNING_OUTPUT">
@@ -1936,7 +1936,7 @@
     </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="LOG_EXPIRED_ENTRY">
@@ -1946,7 +1946,7 @@
     </option>
     <option name="LOG_WARNING_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="LUA_BAD_CHARACTER">
@@ -2249,7 +2249,7 @@
     </option>
     <option name="OC.BADCHARACTER">
       <value>
-        <option name="BACKGROUND" value="{{warning}}" />
+        <option name="BACKGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="OC.BLOCK_COMMENT">
@@ -2329,7 +2329,7 @@
     </option>
     <option name="OC_FORMAT_TOKEN">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -2436,7 +2436,7 @@
     </option>
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2463,7 +2463,7 @@
     <option name="PROPS.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="{{bg1}}" />
-        <option name="BACKGROUND" value="{{warning}}" />
+        <option name="BACKGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="PROPS.KEY">
@@ -2624,7 +2624,7 @@
     </option>
     <option name="QL_BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2679,7 +2679,7 @@
     </option>
     <option name="REGEXP.BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2715,7 +2715,7 @@
     </option>
     <option name="REGEXP.INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2736,7 +2736,7 @@
     </option>
     <option name="REGEXP.REDUNDANT_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="REST.BOLD">
@@ -2801,7 +2801,7 @@
     </option>
     <option name="RUBY_BAD_CHARACTER">
       <value>
-        <option name="BACKGROUND" value="{{warning2}}" />
+        <option name="BACKGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="RUBY_COMMENT">
@@ -2864,7 +2864,7 @@
     </option>
     <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="RUBY_IVAR">
@@ -2891,7 +2891,7 @@
     </option>
     <option name="RUBY_NTH_REF">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="RUBY_NUMBER">
@@ -2969,7 +2969,7 @@
     </option>
     <option name="SASS_RULE">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="SASS_STRING">
@@ -3011,7 +3011,7 @@
     </option>
     <option name="SOY.BAD">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
@@ -3084,7 +3084,7 @@
     </option>
     <option name="SPY-JS.EXCEPTION">
       <value>
-        <option name="BACKGROUND" value="{{warning}}" />
+        <option name="BACKGROUND" value="{{error}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3119,7 +3119,7 @@
     </option>
     <option name="SQL_BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3223,7 +3223,7 @@
     </option>
     <option name="Scala Bad character">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="Scala Block comment">
@@ -3244,7 +3244,7 @@
     </option>
     <option name="Scala Invalid escape in string">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="Scala Keyword">
@@ -3464,7 +3464,7 @@
       <value>
         <option name="FOREGROUND" value="{{bg2}}" />
         <option name="BACKGROUND" value="{{functionname}}" />
-        <option name="ERROR_STRIPE_COLOR" value="{{warning}}" />
+        <option name="ERROR_STRIPE_COLOR" value="{{error}}" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -3478,13 +3478,13 @@
     </option>
     <option name="TWIG_BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="TWIG_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="TWIG_COMMENT">
@@ -3569,7 +3569,7 @@
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{mainbg}}" />
-        <option name="BACKGROUND" value="{{warning2}}" />
+        <option name="BACKGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="Unresolved reference access">
@@ -3595,7 +3595,7 @@
         <option name="FOREGROUND" value="{{fg3}}" />
         <option name="BACKGROUND" value="{{bg2}}" />
         <option name="EFFECT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="{{warning}}" />
+        <option name="ERROR_STRIPE_COLOR" value="{{error}}" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -3612,23 +3612,23 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="Wrong number">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
       </value>
     </option>
     <option name="Wrong string">
       <value>
-        <option name="FOREGROUND" value="{{warning2}}" />
+        <option name="FOREGROUND" value="{{warning}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="Wrong string literal">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3680,7 +3680,7 @@
     </option>
     <option name="XPATH.NUMBER">
       <value>
-        <option name="FOREGROUND" value="{{warning}}" />
+        <option name="FOREGROUND" value="{{error}}" />
       </value>
     </option>
     <option name="XPATHSTRING">
@@ -3729,7 +3729,7 @@
     </option>
     <option name="bemhtml.bem.error">
       <value>
-        <option name="EFFECT_COLOR" value="{{warning2}}" />
+        <option name="EFFECT_COLOR" value="{{warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

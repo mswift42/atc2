@@ -14,8 +14,9 @@
    :constant "#d4d4d4"
    :comment "#808080"
    :selection "#0000ff"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :cursor "#0000ff"
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 
 (def white
@@ -31,8 +32,9 @@
    :constant "#000000"
    :comment "#606060"
    :selection "#ff0000"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :cursor "#ff0000"
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 (def white-sand
   {:themename "white-sand"
@@ -47,8 +49,9 @@
    :constant  "#697024"
    :comment  "#a9a9a9"
    :selection  "#9cfcec"
-   :warning  "#ff1276"
-   :warning2  "#ff4d12"})
+   :cursor  "#9cfcec"
+   :error  "#ff1276"
+   :warning  "#ff4d12"})
 
 (def warm-night
   {:themename "warm-night"
@@ -63,8 +66,9 @@
    :constant "#bd845f"
    :comment "#5d5a58"
    :selection "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :cursor "#e81050"
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def oldlace
   {:themename "Oldlace"
@@ -79,8 +83,9 @@
    :constant "#64502f"
    :comment "#949494"
    :selection "#fa0c0c"
-   :warning "#fa0c0c"
-   :warning2 "#fa7b0c"})
+   :cursor "#fa0c0c"
+   :error "#fa0c0c"
+   :warning "#fa7b0c"})
 
 (def greymatters
   {:themename "Greymatters"
@@ -95,8 +100,9 @@
    :constant "#64502f"
    :comment "#949494"
    :selection "#9cfcec"
-   :warning "#fa0c0c"
-   :warning2 "#fa7b0c"})
+   :cursor "#9cfcec"
+   :error "#fa0c0c"
+   :warning "#fa7b0c"})
 
 (def soft-charcoal
   {:themename "soft-charcoal"
@@ -111,8 +117,9 @@
    :constant "#8aa6c1"
    :comment "#808080"
    :selection "#ff6523"
-   :warning "#ff6523"
-   :warning2 "#ff2370"})
+   :cursor "#ff6523"
+   :error "#ff6523"
+   :warning "#ff2370"})
 
 (def munich
   {:themename "munich"
@@ -127,8 +134,9 @@
    :constant "#d7897c"
    :comment "#5d5d5d"
    :selection "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :cursor "#e81050"
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def reykjavik
   {:themename "reykjavik"
@@ -143,8 +151,9 @@
    :constant "#a3d6cc"
    :comment "#5d5d5d"
    :selection "#3c8c8c"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :cursor "#3c8c8c"
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def bergen
   {:themename "bergen"
@@ -159,8 +168,9 @@
    :constant "#0081a6"
    :comment "#a9a9a9"
    :selection "#ff1276"
-   :warning "#ff1276"
-   :warning2 "#ff4d12"})
+   :cursor "#ff1276"
+   :error "#ff1276"
+   :warning "#ff4d12"})
 
 (def madrid
   {:themename "madrid"
@@ -175,8 +185,9 @@
    :constant "#a27ea4"
    :comment "#5d5d5d"
    :selection "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :cursor "#e81050"
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def soft-morning
   {:themename "soft-morning"
@@ -191,8 +202,9 @@
    :constant "#f03f3f"
    :comment "#808080"
    :selection "#ff6523"
-   :warning "#ff6523"
-   :warning2 "#e80f29"})
+   :cursor "#ff6523"
+   :error "#ff6523"
+   :warning "#e80f29"})
 
 (def magonyx
   {:themename "magonyx"
@@ -207,8 +219,9 @@
    :constant "#eca661"
    :comment "#5d5d5d"
    :selection "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :cursor "#e81050"
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def light-kiss
   {:themename "light-kiss"
@@ -223,8 +236,9 @@
    :constant "#337d92"
    :comment "#909090"
    :selection "#ff0000"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :cursor "#ff0000"
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 (def foggy-night
   {:themename "foggy-night"
@@ -239,8 +253,9 @@
    :constant "#3e8c9d"
    :comment "#626262"
    :selection "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :cursor "#e81050"
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def silkworm
   {:themename "silkworm"
@@ -255,8 +270,9 @@
    :constant "#a74f31"
    :comment "#a9a9a9"
    :selection "#dbece3"
-   :warning "#ff1276"
-   :warning2 "#ff4d12"})
+   :cursor "#dbece3"
+   :error "#ff1276"
+   :warning "#ff4d12"})
 
 (def metalheart
   {:themename "metalheart"
@@ -271,8 +287,9 @@
    :constant "#5980a3"
    :comment "#727272"
    :selection "#ff0000"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :cursor "#ff0000"
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 (def breezy-fall
   {:themename "breezy-fall"
@@ -287,8 +304,9 @@
    :constant "#844c41"
    :comment "#906e86"
    :selection "#ff1276"
-   :warning "#ff1276"
-   :warning2 "#ff4d12"})
+   :cursor "#ff1276"
+   :error "#ff1276"
+   :warning "#ff4d12"})
 
 (def thursday
   {:themename "thursday"
@@ -303,8 +321,9 @@
    :constant "#28766e"
    :comment "#949494"
    :selection "#eaec9c"
-   :warning "#fa0c0c"
-   :warning2 "#fa7b0c"})
+   :cursor "#eaec9c"
+   :error "#fa0c0c"
+   :warning "#fa7b0c"})
 
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type

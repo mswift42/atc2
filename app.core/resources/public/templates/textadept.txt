@@ -24,24 +24,24 @@
 -- This file is not part of TextAdept
 local view, colors, styles = view, lexer.colors, lexer.styles
 
-colors.fg1      = {{mainfg}}
-colors.fg2      = {{fg2}}
-colors.fg3      = {{fg3}}
-colors.fg4      = {{fg4}}
-colors.bg1      = {{mainbg}}
-colors.bg2      = {{bg2}}
-colors.bg3      = {{bg3}}
-colors.bg4      = {{bg4}}
-colors.builtin  = {{builtin}}
-colors.keyword  = {{keyword}}
-colors.const    = {{constant}}
-colors.comment  = {{comment}}
-colors.func     = {{functionname}}
-colors.str      = {{string}}
-colors.type     = {{type}}
-colors.var      = {{variable}}
-colors.warning  = {{warning}}
-colors.warning2 = {{warning2}}
+colors.fg1     = {{mainfg}}
+colors.fg2     = {{fg2}}
+colors.fg3     = {{fg3}}
+colors.fg4     = {{fg4}}
+colors.bg1     = {{mainbg}}
+colors.bg2     = {{bg2}}
+colors.bg3     = {{bg3}}
+colors.bg4     = {{bg4}}
+colors.builtin = {{builtin}}
+colors.keyword = {{keyword}}
+colors.const   = {{constant}}
+colors.comment = {{comment}}
+colors.func    = {{functionname}}
+colors.str     = {{string}}
+colors.type    = {{type}}
+colors.var     = {{variable}}
+colors.error   = {{error}}
+colors.warning = {{warning}}
 
 -- Default font.
 if not font then
@@ -68,18 +68,18 @@ styles.class = {fore = colors.func, bold = true}
 styles.comment = {fore = colors.comment}
 styles.constant = {fore = colors.const}
 styles.embedded = {fore = colors.builtin, back = colors.bg2}
-styles.error = {fore = colors.warning, italics = true}
+styles.error = {fore = colors.error, italics = true}
 styles['function'] = {fore = colors.func}
 styles.identifier = {fore=colors.var}
 styles.keyword = {fore = colors.keyword}
-styles.label = {fore = colors.warning}
+styles.label = {fore = colors.error}
 styles.number = {fore = colors.const}
 styles.operator = {fore = colors.fg2}
 styles.preprocessor = {fore = colors.str}
 styles.regex = {fore = colors.str}
 styles.string = {fore = colors.str}
 styles.type = {fore = colors.func}
-styles.variable = {fore = colors.warning}
+styles.variable = {fore = colors.error}
 styles.whitespace = {}
 
 -- Multiple Selection and Virtual Space
@@ -106,7 +106,7 @@ view.marker_back[textadept.bookmarks.MARK_BOOKMARK] = colors.str
 --view.marker_fore[textadept.run.MARK_WARNING] = colors.bg1
 view.marker_back[textadept.run.MARK_WARNING] = colors.keyword
 --view.marker_fore[textadept.run.MARK_ERROR] = colors.bg1
-view.marker_back[textadept.run.MARK_ERROR] = colors.warning
+view.marker_back[textadept.run.MARK_ERROR] = colors.error
 for i = view.MARKNUM_FOLDEREND, view.MARKNUM_FOLDEROPEN do -- fold margin
   view.marker_fore[i] = colors.bg1
   view.marker_back[i] = colors.comment
@@ -128,6 +128,6 @@ view.call_tip_fore_hlt = colors.fg3
 view.edge_color = colors.bg3
 
 -- Add red, green, and yellow for diff lexer.
-colors.red = colors.warning
+colors.red = colors.error
 colors.green = colors.str
 colors.yellow = colors.keyword

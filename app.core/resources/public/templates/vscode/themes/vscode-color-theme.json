@@ -39,7 +39,7 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "{{warning}}"
+				"foreground": "{{error}}"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
 			"settings": {
-				"foreground": "{{warning}}"
+				"foreground": "{{error}}"
 			}
 		},
 		{
@@ -290,7 +290,7 @@
 			"name": "Markup: Error",
 			"scope": "markup.error",
 			"settings": {
-				"foreground": "{{warning}}"
+				"foreground": "{{error}}"
 			}
 		},
 		{
@@ -342,7 +342,7 @@
 			"name": "Markup: Traceback",
 			"scope": "markup.traceback",
 			"settings": {
-				"foreground": "{{warning}}"
+				"foreground": "{{error}}"
 			}
 		},
 		{

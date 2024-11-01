@@ -15,6 +15,8 @@
    [:span (case textdecoration
             :selection {:style {:color (color @app-db)
                                 :background (textdecoration @app-db)}}
+            :cursor {:style {:color (color @app-db)
+                                :background (textdecoration @app-db)}}
             {:style {:color (color @app-db)
                      :text-decoration "underline"
                      :text-decoration-style "wavy"
@@ -34,7 +36,8 @@
    [span-component "eratosthenes" :functionname ]
    [span-component "(" :mainfg]
    [span-component "limit" :constant]
-   [span-component ") {" :mainfg]
+   [span-component ") " :mainfg]
+   [span-component "{" :mainfg :cursor]
    [:br]
    [span-component "  var " :keyword]
    [span-component "primes " :variable]
@@ -187,9 +190,9 @@
    [span-component ");" :mainfg]
    [:br]
    [:br]
-   [span-component "! " :warning2]
+   [span-component "! " :warning]
    [span-component "var " :keyword]
-   [span-component "x" :variable :warning2]
+   [span-component "x" :variable :warning]
    [span-component " = 2;" :mainfg]
    [:br]
    [:br]
@@ -211,7 +214,7 @@
    [span-component " {Theme}" :mainfg]
    [span-component " from " :keyword]
    [span-component "'./Theme'" :string]
-   [span-component ";" :mainfg]
+   [span-component ";" :mainfg :cursor]
    [:br]
    [span-component "import" :keyword]
    [span-component " {Face}" :mainfg]
@@ -320,7 +323,8 @@
    [:br]
    [span-component "  def " :keyword]
    [span-component "initialize" :functionname]
-   [span-component "(name)" :mainfg]
+   [span-component "(name" :mainfg]
+   [span-component ")" :mainfg :cursor]
    [:br]
    [span-component "    @name " :variable]
    [span-component "= name.capitalize" :mainfg]
@@ -398,7 +402,8 @@
    [span-component "__init__" :functionname]
    [span-component "(" :mainfg]
    [span-component "self" :keyword]
-   [span-component "):" :mainfg]
+   [span-component ")" :mainfg :cursor]
+   [span-component ":" :mainfg]
    [:br]
    [span-component "        self" :keyword]
    [span-component ".data = []" :mainfg]
@@ -493,7 +498,7 @@
    [:br]
    [span-component "typedef struct " :keyword]
    [span-component "my_struct_s " :type]
-   [span-component "{" :mainfg]
+   [span-component "{" :mainfg :cursor]
    [:br]
    [span-component "    char " :type]
    [span-component "*" :mainfg]
@@ -519,7 +524,7 @@
    [span-component "{" :mainfg]
    [:br]
    [span-component "    " :mainfg]
-   [span-component "write" :mainfg :warning2]
+   [span-component "write" :mainfg :warning]
    [span-component "(1, &c, 1);" :mainfg]
    [:br]
    [span-component "    return" :keyword]
@@ -541,7 +546,7 @@
    [span-component ", " :mainfg]
    [span-component "char " :type]
    [span-component "**" :mainfg]
-   [span-component "argv" :variable :warning2]
+   [span-component "argv" :variable :warning]
    [span-component ")" :mainfg]
    [:br]
    [span-component "{" :mainfg]
